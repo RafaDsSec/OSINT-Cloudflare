@@ -15,7 +15,7 @@ This project performs a **passive reconnaissance** analysis of Cloudflare's infr
 ## 🛠️ How to Run the Processor
 To generate the master report from the collected evidence, execute:
 ```bash
-python3 scripts/procesar_evidencia.py
+python3 scripts/procesar_evidencia.py```
 
 ---
 
