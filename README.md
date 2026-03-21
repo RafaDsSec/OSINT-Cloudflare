@@ -64,6 +64,7 @@ The domain utilizes a high-redundancy Anycast network through **Cloudflare**, di
    Registry Expiry Date: 2033-02-17T22:07:54Z
    Name Server: NS3.CLOUDFLARE.COM
    ... [truncated]
+```
 
 ### 4. DNSSEC & Cryptographic Integrity
 The infrastructure implements **DNSSEC Extensions**, providing a layer of trust by signing DNS records.
