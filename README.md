@@ -103,3 +103,24 @@ Critical discovery: Several subdomains are behind **Active Challenge/WAF filters
 [https://dash.cloudflare.com](https://dash.cloudflare.com) [403] [Attention Required! | Cloudflare]
 [https://challenges.cloudflare.com](https://challenges.cloudflare.com) [200] [Cloudflare Turnstile]
 [https://one.dash.cloudflare.com](https://one.dash.cloudflare.com) [200] [Cloudflare One]
+´´´
+
+---
+
+## 🛠️ Automation & Scripting Logic (The Engine)
+
+The core of this project is a custom Python-based orchestration engine designed to minimize manual overhead and maximize data integrity during the reconnaissance phase.
+
+### 1. Modular Pipeline Architecture
+The script follows a strictly sequential and validated workflow:
+1. **Initial Recon:** Multi-engine discovery via Sublist3r integration.
+2. **Sanitization Engine:** Automated cleaning of `domains.txt` to `clean_subdomains.txt` using regex-based de-duplication.
+3. **Validation Layer:** Integrated `httpx` and `dig` probes to verify active resolution and security headers.
+4. **Evidence Persistence:** Automatic directory structuring (`evidencia/dns`, `evidencia/whois`, etc.) for audit-ready reporting.
+
+### 2. Error Handling & Optimization
+* **Non-Blocking Execution:** The script manages sub-processes to prevent hang-ups during long DNS queries.
+* **Smart Filtering:** Implements a "Juicy-Target" logic that isolates high-value subdomains (`admin`, `dev`, `vpn`) for prioritized analysis.
+* **Clean Exit:** Ensures all temporary buffers are flushed and evidence is indexed before termination.
+
+> **Developer Note:** This tool was built on **Linux Mint [HACKLAB💀]** using Python 3, prioritizing lightweight execution and native tool integration over heavy external dependencies.
