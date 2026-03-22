@@ -124,7 +124,8 @@ The script follows a strictly sequential and validated workflow:
 o> **Developer Note:** This tool was built on **Linux Mint [HACKLAB💀]** using Python 3, prioritizing lightweight execution and native tool integration over heavy external dependencies.
 ```
 ## 🤝 Acknowledgments & Collaboration
-This project's documentation and architectural refinement were developed in a collaborative effort between **RafaDsSec** and **Gemini (Google AI)**. 
+```bash
+#This project's documentation and architectural refinement were developed in a collaborative effort between **RafaDsSec** and **Gemini (Google AI)**. 
 
 * **Documentation Strategy:** Optimization of Markdown structure for professional reporting.
 * **Automation Workflow:** Refinement of Python-based reconnaissance logic.
