@@ -104,8 +104,9 @@ Critical discovery: Several subdomains are behind **Active Challenge/WAF filters
 [https://challenges.cloudflare.com](https://challenges.cloudflare.com) [200] [Cloudflare Turnstile]
 [https://one.dash.cloudflare.com](https://one.dash.cloudflare.com) [200] [Cloudflare One]
 ´´´
-
----
+<br>
+<hr>
+<br>
 
 ## 🛠️ Automation & Scripting Logic (The Engine)
 
@@ -123,4 +124,4 @@ The script follows a strictly sequential and validated workflow:
 * **Smart Filtering:** Implements a "Juicy-Target" logic that isolates high-value subdomains (`admin`, `dev`, `vpn`) for prioritized analysis.
 * **Clean Exit:** Ensures all temporary buffers are flushed and evidence is indexed before termination.
 
-> **Developer Note:** This tool was built on **Linux Mint [HACKLAB💀]** using Python 3, prioritizing lightweight execution and native tool integration over heavy external dependencies.
+o> **Developer Note:** This tool was built on **Linux Mint [HACKLAB💀]** using Python 3, prioritizing lightweight execution and native tool integration over heavy external dependencies.
