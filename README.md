@@ -122,7 +122,10 @@ The script follows a strictly sequential and validated workflow:
 * **Clean Exit:** Ensures all temporary buffers are flushed and evidence is indexed before termination.
 
 o> **Developer Note:** This tool was built on **Linux Mint [HACKLAB💀]** using Python 3, prioritizing lightweight execution and native tool integration over heavy external dependencies.
-```
+
+## 🤝 Acknowledgments & Collaboration
+
+```bash
 # This project's documentation and architectural refinement were developed by:
 # RafaDsSec + Gemini (Google AI)
 
