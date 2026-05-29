@@ -27,7 +27,7 @@ python3 scripts/procesar_evidencia.py
 No intrusion attacks, active scanning, or denial-of-service tests
 were performed against Cloudflare's infrastructure.
 
-The author (Sic4ri0) is not responsible for any misuse
+The author (RafaDsSec) is not responsible for any misuse
 of this information or the tools provided in this repository.
 
 Always ensure you have explicit permission before
